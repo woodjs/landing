@@ -547,13 +547,17 @@ body {
   background-color: #44444f;
   color: #9191b5;
   padding: 163px 0;
+  font-family: 'Open Sans', sans-serif;
 }
 .block-footer {
   display: flex;
   justify-content: space-between;
 }
 .block-footer__item {
-  flex-basis: 30%;
+  /* flex-basis: 30%; */
+}
+.block-footer__item--logo {
+  width: 362px;
 }
 .block-footer__logo {
   display: block;
