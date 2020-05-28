@@ -741,7 +741,9 @@ body {
   background-image: url('../img/footer-logo.png');
   margin-bottom: 36px;
 }
-
+.popup__active {
+  display: block;
+}
 .block-footer__title {
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
@@ -1106,6 +1108,9 @@ body {
   }
   .block-book-demo__subtitle {
     font-size: 12px;
+  }
+  .page__title {
+    font-size: 36px;
   }
 }
 
